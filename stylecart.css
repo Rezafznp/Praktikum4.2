@@ -1,0 +1,209 @@
+:root {
+    --debug: 1px solid red;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1000px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: gainsboro;
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+nav .logo {
+    margin-right: 50px;
+}
+
+nav .icon-ul {
+    margin-left: auto;
+}
+
+nav .cart {
+    display: flex;
+    gap: 5px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+main {
+    width: 55%;
+    margin-left: 20px;
+}
+
+.b1 {
+    display: flex;
+}
+
+#numberorder {
+    margin-left: 20px;
+}
+
+.b2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-top: 20px;
+}
+
+.b3 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#table1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#table3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.kanan{
+    margin-left: 100px;
+}
+
+.samping{
+    width: 30%; 
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.apply{
+    background-color: #2a2669;  
+    margin-top: 20px;
+}
+
+.apply h2{
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.apply2{
+    margin-left: 10px;
+    display: flex;
+}
+
+.tableaside1{
+    margin-right: 160px;
+    margin-top: 20px;
+}
+
+.tableaside1 table tr td{
+    color: white;
+}
+
+.tableaside2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tableaside2 table tr td{
+    color: white;
+}
+
+.card{
+    background-color: #2a2669; 
+}
+
+.giftcard {
+    margin-left:10px; 
+    margin-bottom: 7px; 
+    color:#ffffff
+}
+
+.button{
+    display: flex; 
+    margin-top: 7px;
+    margin-left: 15px; 
+    margin-bottom: 15px; 
+    border: 2px;
+}
+
+.total{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.total1{
+    margin-left: 10px;
+    margin-right: 190px;
+}
+
+.total table tr td{
+    color: white;
+}
+
+footer {
+    margin-top: 100px;
+    border-top: 1px solid black;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+}
+
+footer .baris, .input-subscribe {
+    display: flex;
+}
+
+footer .baris {
+    gap: 5px;
+}
+
+footer a:last-child {
+    margin-left: auto;
+}
+
+footer .input-subscribe {
+    margin-left: auto;
+}
+
+footer .input-subscribe p {
+    background-color: red;
+    color: white;
+    font-size: 15px;
+}
+
+footer .input-subscribe input::placeholder {
+    font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+body {
+    background-color: yellow;
+}
+}
